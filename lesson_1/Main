@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        String login = "admin";
+        String pass = "123456";
+        if (login.equals("admin") && pass.equals("123456")) {
+            System.out.println("Dostup razreshen");
+        }
+        else if (login.equals("user")&& pass.equals("123456")) {
+            System.out.println("Доступ разрешён для пользователя");
+        }else {
+            System.out.println("Dostup zapreschen");
+        }
+    }
+}
